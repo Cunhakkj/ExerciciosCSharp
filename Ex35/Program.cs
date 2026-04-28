@@ -1,16 +1,29 @@
 ﻿string nome;
-float v1;
-Console.WriteLine("Digite o seu nome: ");
-nome = Console.ReadLine();
-Console.WriteLine("Digite o valor da venda: ");
-v1 = float.Parse(Console.ReadLine());
+int a, b, c, troca;
+float menor, meio, maior;
+Console.WriteLine("Digite o primeiro número: ");
+a = int.Parse(Console.ReadLine());
+Console.WriteLine("Digite o segundo número: ");
+b = int.Parse(Console.ReadLine());
+Console.WriteLine("Digite o terceiro número: ");
+c = int.Parse(Console.ReadLine());
 
-if (v1 >= 50.000) { 
-    Console.WriteLine(nome + " a sua comissão é de: 12% do valor vendido que foi: " + v1);
+if (a > b) {
+    troca = a;
+    a = b;
+    b = troca;
 }
-if (v1 >= 30.000 && v1 <= 50.000) { 
-    Console.WriteLine(nome + " a sua comissão é de: 9.5% do valor vendido que foi: " + v1);
+if (a > c) {
+    troca = a;
+    a = c;
+    c = troca;
 }
-if (v1 <= 30.000) {
-    Console.WriteLine(nome + "a sua comissão é de: 7% do valor vendido que foi: " + v1);
+if (b > c) {
+    troca = b;
+    b = c;
+    c = troca;
 }
+Console.WriteLine("Números em ordem crescente: ");
+Console.WriteLine(a);
+Console.WriteLine(b);
+Console.WriteLine(c);
