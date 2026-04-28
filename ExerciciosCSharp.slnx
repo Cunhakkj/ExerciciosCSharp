@@ -2,6 +2,7 @@
   <Folder Name="/Lista03/">
     <Project Path="Ex031/Ex31.csproj" Id="558faa0c-28f4-4973-8cb1-940d8511b102" />
     <Project Path="Ex032/Ex32.csproj" Id="83bac17a-ff6e-4892-8777-17a2150b3c33" />
+    <Project Path="Ex034/Ex034.csproj" Id="8b674a65-1797-4e5c-8353-fc5961850405" />
     <Project Path="Ex33/Ex33.csproj" Id="49b8f88d-8c1f-4b2e-84c5-a98516c605ae" />
     <Project Path="Ex34/Ex35.csproj" Id="ec2773f1-02b8-4d9a-ad49-75fda236af35" />
     <Project Path="Ex35/Ex36.csproj" Id="7cf9c42e-d2f5-4e04-8779-991c88518c12" />
