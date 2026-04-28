@@ -1,7 +1,4 @@
-﻿using System.Reflection.Metadata;
-using System.Xml.Linq;
-
-string nome;
+﻿string nome;
 float nota1, nota2, nota3, total;
 Console.WriteLine("Digite o número A: ");
 nota1 = float.Parse(Console.ReadLine());
